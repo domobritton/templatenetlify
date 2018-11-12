@@ -2,18 +2,52 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  <>
+    <Layout>
+      {/* <div className="code"><Code /></div> */}
+      {/* <Particles /> */}
+      <div className="index">
+        <h2>Hi, I'm Domonic.</h2>
+        <h3>Full Stack Web Developer.</h3>
+        <p>Ruby / Javascript / React / Redux / Rails / Wordpress</p>
+        <div style={{ maxWidth: "300px", marginBottom: "1.45rem" }} />
+        <div className="social-links">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/domobritton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/domonicbrittonadams/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="contact-btn">
+          <Link to="/contact">Contact Me</Link>
+        </div>
+      </div>
+      <div className="right-arrows-container">
+        <Link to="/about">
+          <div className="right-arrow right-arrow-one" />
+          <div className="right-arrow right-arrow-two" />
+        </Link>
+      </div>
+    </Layout>
+  </>
+);
 
 export default IndexPage
