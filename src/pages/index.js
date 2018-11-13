@@ -3,12 +3,14 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import Code from '../components/code'
+import Particles from '../components/particles'
 
 const IndexPage = () => (
   <>
     <Layout>
-      {/* <div className="code"><Code /></div> */}
-      {/* <Particles /> */}
+      <div className="code"><Code /></div>
+      <Particles />
       <div className="index">
         <h2>Hi, I'm Domonic.</h2>
         <h3>Full Stack Web Developer.</h3>
