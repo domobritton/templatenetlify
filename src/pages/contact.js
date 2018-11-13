@@ -3,11 +3,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import { FaPhone } from "react-icons/fa"
 import Map from '../components/map'
-import Particles from "../components/particles"
 
 const contactPage = () => (
     <>
-    <Particles />
     <Layout>
       <div className="map">
         <Map />

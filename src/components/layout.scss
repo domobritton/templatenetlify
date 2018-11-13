@@ -382,7 +382,8 @@ a {
   text-decoration: none;
 }
 
-p {
+p,
+li {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -401,7 +402,7 @@ p {
     Droid Sans,
     sans-serif;
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
   line-height: 1.5;
 }
@@ -644,6 +645,10 @@ pre tt:after {
   cursor: pointer;
 }
 
+.contact-btn {
+  margin-top: 30px;
+}
+
 .contact-btn a {
   color: #ef4135;
   font-size: 1rem;
@@ -683,10 +688,6 @@ pre tt:after {
   width: 100vw;
 }
 
-// .about, .index, .skills, .scroll {
-//   height: 100vh;
-// }
-
 @media all and (max-width: 1024px) {
   .about {
     height: 100%;
@@ -716,11 +717,11 @@ pre tt:after {
 }
 
 .about {
-  background: #2b455cf8;
+  background: #2b455cfb;
 }
 
 .skills {
-  background: #738290fb;
+  background: #687683fb;
 }
 
 .skills h2 {
@@ -736,7 +737,7 @@ pre tt:after {
 }
 
 .contact {
-  background: rgba(43, 69, 92, 0.97);
+  background: #686663fb;
 }
 
 .map,

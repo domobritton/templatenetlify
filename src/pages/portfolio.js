@@ -8,11 +8,9 @@ import Seismic from "../images/seismic.gif"
 import Silent from "../images/silentdisco.gif"
 import Layout from "../components/layout"
 import { FaGithub, FaLink, FaCode } from "react-icons/fa"
-import Particles from "../components/particles"
 
 const portfolioPage = () => (
     <>
-    <Particles />
     <Layout>
         <div className="scroll-text">
           <p>

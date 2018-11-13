@@ -2,13 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Code from '../components/code'
-import Particles from "../components/particles"
 import WordCloud from "../components/wordcloud"
 
 
 const skillsPage = () => (
     <>
-    <Particles />
     <Layout>
       <div className="code"><Code /></div>
     <div className="skills">

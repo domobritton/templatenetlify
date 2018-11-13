@@ -2,13 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Image from "../components/image"
 import Code from "../components/code"
-import Particles from "../components/particles"
 
 import Layout from '../components/layout'
 
 const aboutPage = () => (
   <>
-  <Particles />
   <Layout>
       <div className="code">
         <Code />
