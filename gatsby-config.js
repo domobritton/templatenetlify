@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Domonic Adams Portfolio',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'domonic-adams-portfolio',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',

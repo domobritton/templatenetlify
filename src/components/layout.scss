@@ -689,6 +689,11 @@ pre tt:after {
 }
 
 @media all and (max-width: 1024px) {
+  .index {
+    height: 100%;
+    min-height: 700px;
+  }
+
   .about {
     height: 100%;
   }
