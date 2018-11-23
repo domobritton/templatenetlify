@@ -15,6 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
+
         trackingId: "UA-121635734-3",
       },
     },
@@ -22,6 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
+
         trackingId: `UA-121635734-3`,
         // Puts tracking script in the head instead of the body
         head: true,
@@ -48,3 +50,4 @@ module.exports = {
     // 'gatsby-plugin-offline',
   ],
 }
+
