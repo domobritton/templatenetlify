@@ -12,6 +12,23 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-121635734-3",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `UA-121635734-3`,
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // enable ip anonymization
+        anonymize: true,
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

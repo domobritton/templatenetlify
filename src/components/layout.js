@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
-import Header from './header'
 import './layout.scss'
 
 const Layout = ({ children }) => (
@@ -27,7 +25,7 @@ const Layout = ({ children }) => (
               content: 'Domonic Adams Portfolio'
             }, {
               name: 'keywords',
-              content: 'webdev, front-end, back-end, full stack, software dev, domonic adams'
+              content: 'webdev, front-end, back-end, full stack, software dev, domonic adams, software engineer'
             },
           ]}
         >
