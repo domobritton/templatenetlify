@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Nas from '../images/nas_daily.gif'
 import Intrst from "../images/intrst.gif"
 import Crushd from "../images/crushd.gif"
 import NeueWeather from "../images/neueweather.gif"
@@ -8,6 +9,7 @@ import Seismic from "../images/seismic.gif"
 import Silent from "../images/silentdisco.gif"
 import Layout from "../components/layout"
 import { FaGithub, FaLink, FaCode } from "react-icons/fa"
+import Anime from 'react-anime'
 
 const portfolioPage = () => (
     <>
@@ -24,38 +26,39 @@ const portfolioPage = () => (
           <div className="arrow arrow-two" />
         </div>
         <div className="scroll">
+        <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
           <h2>Portfolio</h2>
           <div className="portfolio">
             <div className="left">
-              <img src={Intrst} alt="Intrst" />
+            <img src={Nas} alt="Nas Daily" />
               <p>
                 <em>
-                  Technologies: Rails, React, Webpack, AWS S3 ActiveStorage
+                  Technologies: Rails, React, Cloudinary, Facebook SDK
                 </em>
               </p>
               <ul>
                 <li>
-                  Formulated a Javascript algorithm that resizes individual
-                  masonry blocks and optimizes their positioning within a
-                  masonry grid, depending on image size and available screen
-                  width.
+                  Built new front-end UI, integrating with existing Rails backend.
                 </li>
                 <li>
-                  I also designed an infinite scroll which initially fills the
-                  browser with images and continuously listens for scroll events
-                  in order to execute seamless AJAX requests.
+                  Designed an infinite scroll which initially fills the browser with 
+                  facebook videos and continuously listens for scroll events in order 
+                  to execute seamless updates from state.
                 </li>
                 <li>
-                  A higher order component handles modal functionality which can
-                  be passed to other components as needed untilizing the UI
-                  slice of state.
+                  Utilized SASS with flexbox and media queries for clean, 
+                  easy-to-maintain, and responsive code.
+                </li>
+                 <li>
+                  Integrated Cloudinary to simplify image storage and provide 
+                  lightning fast image loading to the browser.
                 </li>
               </ul>
               <div className="portfolio-links">
                 <ul>
                   <li>
                     <a
-                      href="https://intrst.herokuapp.com/"
+                      href="http://nasdaily.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -64,7 +67,7 @@ const portfolioPage = () => (
                   </li>
                   <li>
                     <a
-                      href="https://github.com/domobritton/Intrst/tree/master/pinterest"
+                      href = "https://github.com/domobritton/nasDaily"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -151,7 +154,7 @@ const portfolioPage = () => (
               </p>
               <ul>
                 <li>
-                  Collaborated VP's of Design and Product to design a new
+                  Collaborated with VP's of Design and Product to design a new
                   website for their robotic clothing company, focusing on a
                   clean and easy to use experience with forward-thinking CSS and
                   interface design.
@@ -198,6 +201,52 @@ const portfolioPage = () => (
                   </li>
                 </ul>
               </div>
+              <img src={Intrst} alt="Intrst" />
+              <p>
+                <em>
+                  Technologies: Rails, React, Webpack, AWS S3 ActiveStorage
+                </em>
+              </p>
+              <ul>
+                <li>
+                  Formulated a Javascript algorithm that resizes individual
+                  masonry blocks and optimizes their positioning within a
+                  masonry grid, depending on image size and available screen
+                  width.
+                </li>
+                <li>
+                  I also designed an infinite scroll which initially fills the
+                  browser with images and continuously listens for scroll events
+                  in order to execute seamless AJAX requests.
+                </li>
+                <li>
+                  A higher order component handles modal functionality which can
+                  be passed to other components as needed untilizing the UI
+                  slice of state.
+                </li>
+              </ul>
+              <div className="portfolio-links">
+                <ul>
+                  <li>
+                    <a
+                      href="https://intrst.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLink />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/domobritton/Intrst/tree/master/pinterest"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub />
+                    </a>
+                  </li>
+                </ul>
+              </div>
               <img src={Crushd} alt="Crush'd Dating" />
               <p>
                 <em>Technologies: MERN stack, Firebase</em>
@@ -232,6 +281,7 @@ const portfolioPage = () => (
               </div>
             </div>
           </div>
+          </Anime>
         </div>
         <div className="right-arrows-container">
           <Link to="/contact">

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Code from '../components/code'
 import WordCloud from "../components/wordcloud"
+import Anime from 'react-anime'
 
 
 const skillsPage = () => (
@@ -10,6 +11,7 @@ const skillsPage = () => (
     <Layout>
       <div className="code"><Code /></div>
     <div className="skills">
+    <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
       <h2>Skills & Experience</h2>
       <p>
         In my experience as a freelancer, and working for agencies, I have
@@ -18,8 +20,10 @@ const skillsPage = () => (
         efficiently project manage and work with clients and colleagues
         successfully.
       </p>
+        </Anime>
       <div className="skills-flex">
     <div className="left">
+    <Anime opacity={[0, 1]} easing='easeInElastic' delay={(e, i) => i * 1250}>
       <p>
         I now specialise in front-end development, but my knowledge of multiple
         fields allows me to work on a project with the full scope in mind;
@@ -32,7 +36,7 @@ const skillsPage = () => (
           href="https://www.linkedin.com/in/domonicbrittonadams/"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           {" "}
           LinkedIn{" "}
         </a>
@@ -41,12 +45,13 @@ const skillsPage = () => (
           href="https://github.com/domobritton"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           {" "}
           Contact me{" "}
         </a>{" "}
         directly.
       </p>
+      </Anime>
       </div>
       <div className="right">
       <WordCloud />

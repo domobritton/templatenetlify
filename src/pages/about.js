@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Image from "../components/image"
 import Code from "../components/code"
+import Anime from 'react-anime'
 
 import Layout from '../components/layout'
 
@@ -13,6 +14,7 @@ const aboutPage = () => (
       </div>
       <div className="about">
         <div className="left">
+        <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
           <h2>About Me</h2>
           <p>
             I thrive at the intersection of creativity and tech innovation—
@@ -28,13 +30,15 @@ const aboutPage = () => (
           </p>
           <div className="download-btn">
             <a
-              href="https://drive.google.com/file/d/1zXCDOc7GPU-3GmhqvwYTeqoWnX7P04yW/view?usp=sharing"
+              href = "https://drive.google.com/file/d/1zXCDOc7GPU-3GmhqvwYTeqoWnX7P04yW/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
+            
               Download My Resume
             </a>
           </div>
+          </Anime>
         </div>
         <div className="right">
           <Image />
