@@ -22,7 +22,7 @@ const contactPage = () => (
         </p>
         <p>
           <em>@ </em>
-          <a href="mailto:webmaster@example.com">dom@domadams.me</a>
+          <a href="mailto:dom@domadams.me">dom@domadams.me</a>
         </p>
         <p>
           <FaPhone /> 415.686.9140
