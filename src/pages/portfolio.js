@@ -26,7 +26,7 @@ const portfolioPage = () => (
           <div className="arrow arrow-two" />
         </div>
         <div className="scroll">
-        <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
+        <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => i * 500}>
           <h2>Portfolio</h2>
           <div className="portfolio">
             <div className="left">

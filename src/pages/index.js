@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div className="code"><Code /></div>
       <Particles />
       <div className="index">
-      <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
+      <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => i * 500}>
         <h2>Hi, I'm Domonic.</h2>
         <h3>Full Stack Web Developer.</h3>
         <p>Ruby / Javascript / React / Redux / Rails / Wordpress</p>

@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background: #252627;
+  background: #ccc;
 }
 
 a {
@@ -337,7 +337,6 @@ ul {
   }
 
   .right {
-    margin-left: 1rem;
     flex: 1;
     order: 2;
   }
@@ -549,7 +548,7 @@ td:last-child {
 
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  // background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   font-family: Quicksand,
     -apple-system,
@@ -680,7 +679,7 @@ pre tt:after {
 .skills,
 .scroll,
 .contact {
-  padding-top: 150px;
+  padding-top: 200px;
   margin: 0 auto;
   padding-bottom: 50px;
   padding-left: 10%;
@@ -703,18 +702,11 @@ pre tt:after {
   }
 }
 
-@media all and (min-width: 1025px) {
-
-  .about,
-  .index,
-  .skills,
-  .scroll {
-    height: 100vh;
-  }
-}
-
+.index,
+.about,
+.skills,
 .contact {
-  height: 100vh;
+  min-height: 700px;
 }
 
 .index {
