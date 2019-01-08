@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.scss'
 
+import { Transition } from './transitions';
+import { black } from 'ansi-colors';
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -31,9 +34,10 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className="layout"
-        >
+        <div className="layout">
+        <Transition>
           {children}
+        </Transition>
         </div>
       </>
     )}
@@ -45,3 +49,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+

@@ -14,7 +14,7 @@ const aboutPage = () => (
       </div>
       <div className="about">
         <div className="left">
-        <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
+        <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => i * 500}>
           <h2>About Me</h2>
           <p>
             I thrive at the intersection of creativity and tech innovation—

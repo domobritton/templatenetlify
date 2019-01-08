@@ -12,10 +12,10 @@ const contactPage = () => (
         <Map />
       </div>
       <div className="contact">
-      <Anime opacity={[0, 1]} translateY={'0.1em'} delay={(e, i) => i * 500}>
+      <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => i * 500}>
         <h2>Contact Me</h2>
         <p>
-          I am actively seeking new front-end developer opportunities in the San
+          I am actively seeking front-end developer opportunities in the San
           Francisco Bay Area.
           <br />
           I'd love to connect and learn about your product and culture.
