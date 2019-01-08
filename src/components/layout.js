@@ -4,8 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import './layout.scss'
 
-import { Transition } from './transitions';
-import { black } from 'ansi-colors';
+// import { Transition } from './transitions';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -35,9 +34,9 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <div className="layout">
-        <Transition>
+        {/* <Transition> */}
           {children}
-        </Transition>
+        {/* </Transition> */}
         </div>
       </>
     )}
