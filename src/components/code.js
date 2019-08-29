@@ -2,8 +2,8 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-const Code = () => ( 
-    <StaticQuery 
+const Code = () => (
+    <StaticQuery
         query={graphql`
       query {
         mapImage: file(relativePath: { eq: "code.jpg" }) {
@@ -15,7 +15,7 @@ const Code = () => (
         }
       }
   `}
-    render = {data => <Img fluid = {data.mapImage.childImageSharp.fluid}/>} 
+    render = {data => <Img style={{height: '100%'}} fluid = {data.mapImage.childImageSharp.fluid}/>}
             />
-        )        
+        )
 export default Code

@@ -253,7 +253,7 @@ ul {
   .layout {
     margin: 0 auto;
     max-width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
 
   .right-arrows-container {
@@ -674,6 +674,16 @@ pre tt:after {
   background: transparent;
 }
 
+.index, .about, .skills, .contact {
+  height: 100vh;
+}
+
+@media (max-width: 860px) {
+  .about {
+    height: 100%;
+  }
+}
+
 .about,
 .index,
 .skills,
@@ -681,33 +691,23 @@ pre tt:after {
 .contact {
   padding-top: 200px;
   margin: 0 auto;
-  padding-bottom: 50px;
   padding-left: 10%;
   padding-right: 10%;
   width: 100vw;
 }
 
-@media all and (max-width: 1024px) {
-  .index {
-    height: 100%;
-    min-height: 700px;
-  }
-
-  .about {
-    height: 100%;
-  }
-
-  .skills {
-    height: 100%;
+@media all and (min-width: 992px) and (max-width: 1024px) {
+  .scroll {
+    padding-bottom: 450px;
   }
 }
 
-.index,
-.about,
-.skills,
-.contact {
-  min-height: 700px;
+@media all and (max-width: 991px) {
+  .about, .scroll {
+    padding-bottom: 50px;
+  }
 }
+
 
 .index {
   background: #252627fb;
@@ -734,7 +734,7 @@ pre tt:after {
 }
 
 .contact {
-  background: #686663fb;
+  background: #686663ef;
 }
 
 .map,
@@ -746,14 +746,6 @@ pre tt:after {
   width: 100%;
   overflow-y: hidden;
   z-index: -1;
-}
-
-@media all and (max-width: 940px) {
-
-  .map,
-  .code {
-    visibility: hidden;
-  }
 }
 
 .about h2 {

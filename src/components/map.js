@@ -26,7 +26,7 @@ const Map = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.mapImage.childImageSharp.fluid} />}
+    render={data => <Img style={{height: '100%'}} fluid={data.mapImage.childImageSharp.fluid} />}
   />
 )
 export default Map

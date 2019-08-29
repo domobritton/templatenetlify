@@ -15,8 +15,8 @@ const IndexPage = () => (
       <div className="index">
       <Anime opacity={[0, 1]} translateY={'-1em'} delay={(e, i) => i * 500}>
         <h2>Hi, I'm Domonic.</h2>
-        <h3>Full Stack Web Developer.</h3>
-        <p>Ruby / Javascript / React / Redux / Rails / Wordpress</p>
+        <h3>Full Stack Software Engineer.</h3>
+        <p>Javascript / React / GraphQL / Redux / Ruby / Rails</p>
         <div style={{ maxWidth: "300px", marginBottom: "1.45rem" }} />
         <div className="social-links">
           <ul>
