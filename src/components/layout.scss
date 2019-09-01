@@ -105,51 +105,51 @@ h1 {
   line-height: 1.1;
 }
 
-h2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: Quicksand, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, sans-serif;
-  font-weight: 400;
-  letter-spacing: .25rem;
-  text-rendering: optimizeLegibility;
-  font-size: 2.62671rem;
-  line-height: 1.1;
-  color: #ef4135;
-}
+// h2 {
+//   margin-left: 0;
+//   margin-right: 0;
+//   margin-top: 0;
+//   padding-bottom: 0;
+//   padding-left: 0;
+//   padding-right: 0;
+//   padding-top: 0;
+//   margin-bottom: 1.45rem;
+//   color: inherit;
+//   font-family: Quicksand, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, sans-serif;
+//   font-weight: 400;
+//   letter-spacing: .25rem;
+//   text-rendering: optimizeLegibility;
+//   font-size: 2.62671rem;
+//   line-height: 1.1;
+//   color: #ef4135;
+// }
 
-h3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: Quicksand,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Droid Sans,
-    sans-serif;
-  font-weight: 400;
-  letter-spacing: .20rem;
-  text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
-  line-height: 1.1;
-  color: #ffffff;
-}
+// h3 {
+//   margin-left: 0;
+//   margin-right: 0;
+//   margin-top: 0;
+//   padding-bottom: 0;
+//   padding-left: 0;
+//   padding-right: 0;
+//   padding-top: 0;
+//   margin-bottom: 1.45rem;
+//   color: inherit;
+//   font-family: Quicksand,
+//     -apple-system,
+//     BlinkMacSystemFont,
+//     Roboto,
+//     Oxygen,
+//     Ubuntu,
+//     Cantarell,
+//     Droid Sans,
+//     sans-serif;
+//   font-weight: 400;
+//   letter-spacing: .20rem;
+//   text-rendering: optimizeLegibility;
+//   font-size: 1.38316rem;
+//   line-height: 1.1;
+//   color: #ffffff;
+// }
 
 h4 {
   margin-left: 0;
@@ -250,11 +250,11 @@ ul {
 }
 
 @media all and (max-width: 640px) {
-  .layout {
-    margin: 0 auto;
-    max-width: 100%;
-    padding-bottom: 0px;
-  }
+  // .layout {
+  //   margin: 0 auto;
+  //   max-width: 100%;
+  //   padding-bottom: 0px;
+  // }
 
   .right-arrows-container {
     position: absolute;
@@ -269,9 +269,9 @@ ul {
     visibility: hidden;
   }
 
-  #tagi {
-    visibility: hidden;
-  }
+  // #tagi {
+  //   visibility: hidden;
+  // }
 
   .right-arrows-container {
     position: absolute;
@@ -279,9 +279,9 @@ ul {
     top: 50px;
   }
 
-  .layout {
-    border-left: none;
-  }
+  // .layout {
+  //   border-left: none;
+  // }
 
   .left {
     margin: 0;
@@ -292,9 +292,9 @@ ul {
     margin-bottom: 50px;
   }
 
-  .download-btn {
-    margin-bottom: 50px;
-  }
+  // .download-btn {
+  //   margin-bottom: 50px;
+  // }
 }
 
 @media all and (max-width: 768px) {
@@ -322,7 +322,7 @@ ul {
   }
 }
 
-@media all and (min-width: 1025px) {
+@media all and (min-width: 768px) {
 
   .right-arrows-container {
     position: absolute;
@@ -381,30 +381,30 @@ a {
   text-decoration: none;
 }
 
-p,
-li {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  font-family: Quicksand,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Droid Sans,
-    sans-serif;
-  font-size: 0.95rem;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 1.5;
-}
+// p,
+// li {
+//   margin-left: 0;
+//   margin-right: 0;
+//   margin-top: 0;
+//   padding-bottom: 0;
+//   padding-left: 0;
+//   padding-right: 0;
+//   padding-top: 0;
+//   margin-bottom: 1.45rem;
+//   font-family: Quicksand,
+//     -apple-system,
+//     BlinkMacSystemFont,
+//     Roboto,
+//     Oxygen,
+//     Ubuntu,
+//     Cantarell,
+//     Droid Sans,
+//     sans-serif;
+//   font-size: 0.95rem;
+//   font-weight: 400;
+//   color: #ffffff;
+//   line-height: 1.5;
+// }
 
 form {
   margin-left: 0;
@@ -635,14 +635,14 @@ pre tt:after {
   cursor: pointer;
 }
 
-.download-btn {
-  width: 230px;
-  padding: 8px 15px;
-  border: 1px solid #78C4C4;
-  border-radius: 3px;
-  text-align: center;
-  cursor: pointer;
-}
+// .download-btn {
+//   width: 230px;
+//   padding: 8px 15px;
+//   border: 1px solid #78C4C4;
+//   border-radius: 3px;
+//   text-align: center;
+//   cursor: pointer;
+// }
 
 .contact-btn {
   margin-top: 30px;
@@ -653,10 +653,10 @@ pre tt:after {
   font-size: 1rem;
 }
 
-.download-btn a {
-  color: #78C4C4;
-  font-size: 1rem;
-}
+// .download-btn a {
+//   color: #78C4C4;
+//   font-size: 1rem;
+// }
 
 .contact-btn:hover {
   background: rgba(255, 255, 255, 0.1);
@@ -683,6 +683,14 @@ pre tt:after {
     height: 100%;
   }
 }
+
+@media (max-width: 860px) {
+  .skills {
+    height: 100%;
+  }
+}
+
+
 
 .about,
 .index,
@@ -846,17 +854,31 @@ svg text.blink {
 
 #tagi {
   position: absolute;
-  bottom: 100px;
-  right: 10%;
-  width: 40%;
+  // bottom: 100px;
+  // right: 10%;
+  width: 50%;
 }
 
-@media all and (max-width: 1260px) {
+@media all and (max-width: 768px) {
   #tagi {
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    width: 40%;
+    // position: absolute;
+    // bottom: 20%;
+    // right: 0;
+    // left: 0;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 860px) {
+  #tagi {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #tagi {
+    margin-top: -100px;
   }
 }
 
