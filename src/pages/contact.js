@@ -30,7 +30,7 @@ const contactPage = () => (
         </Anime> 
       </div>
       <div className="right-arrows-container">
-        <Link to="/">
+        <Link to="/" title="Home Page">
           <div className="right-arrow right-arrow-one" />
           <div className="right-arrow right-arrow-two" />
         </Link>

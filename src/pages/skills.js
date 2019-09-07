@@ -58,7 +58,7 @@ const skillsPage = () => (
       </div>
     </div>
       <div className="right-arrows-container">
-        <Link to="/portfolio">
+        <Link to="/portfolio" title="Portfolio Page">
           <div className="right-arrow right-arrow-one" />
           <div className="right-arrow right-arrow-two" />
         </Link>

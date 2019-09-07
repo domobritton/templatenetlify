@@ -1,7 +1,8 @@
 import React from 'react'
 
 const WordCloud = () => (
-    <svg id="tagi" x="0px" y="0px" width="920px" height="324px" viewBox="0 0 920 324">
+  <svg id="tagi" x="0px" y="0px" width="920px" height="324px" viewBox="0 0 920 324">
+    <title>Domonic Adams skills include ES6, React, Gatsby, Node.js, and more</title>  
     <text transform="matrix(1 0 0 1 497.4292 293.7129)" className="st17 st0">JAVASCRIPT</text>
     <text transform="matrix(1 0 0 1 780.8999 191.9316)" className="st17 st20">GATSBY</text>
     <text id="XMLID_2_" transform="matrix(1 0 0 1 433.0854 82.7407)" className="st17 st8">RUBY</text>

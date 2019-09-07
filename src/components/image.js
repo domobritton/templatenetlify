@@ -26,7 +26,7 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.profileImage.childImageSharp.fluid} />}
+    render={data => <Img fluid={data.profileImage.childImageSharp.fluid} alt="Domonic Adams" />}
   />
 )
 export default Image

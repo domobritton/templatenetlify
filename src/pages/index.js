@@ -25,6 +25,7 @@ const IndexPage = () => (
                 href="https://github.com/domobritton"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Github"
               >
                 <FaGithub />
               </a>
@@ -34,6 +35,7 @@ const IndexPage = () => (
                 href="https://www.linkedin.com/in/domonicbrittonadams/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="LinkedIn"
               >
                 <FaLinkedin />
               </a>
@@ -46,7 +48,7 @@ const IndexPage = () => (
         </Anime>
       </div>
       <div className="right-arrows-container">
-        <Link to="/about">
+        <Link to="/about" title="About Page">
           <div className="right-arrow right-arrow-one" />
           <div className="right-arrow right-arrow-two" />
         </Link>

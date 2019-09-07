@@ -61,6 +61,7 @@ const portfolioPage = () => (
                       href="http://nasdaily.com/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Nas Daily website"
                     >
                       <FaLink />
                     </a>
@@ -70,6 +71,7 @@ const portfolioPage = () => (
                       href = "https://github.com/domobritton/nasDaily"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Github"
                     >
                       <FaGithub />
                     </a>
@@ -95,6 +97,7 @@ const portfolioPage = () => (
                       href="https://silentdis.co/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Silent Storm website"
                     >
                       <FaLink />
                     </a>
@@ -131,6 +134,7 @@ const portfolioPage = () => (
                       href="https://neue-weather.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Neue Weather website"
                     >
                       <FaLink />
                     </a>
@@ -140,6 +144,7 @@ const portfolioPage = () => (
                       href="https://github.com/domobritton/neue-weather"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Github"
                     >
                       <FaGithub />
                     </a>
@@ -171,6 +176,7 @@ const portfolioPage = () => (
                       href="https://www.myseismic.com/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Seismic Clothing website"
                     >
                       <FaLink />
                     </a>
@@ -195,6 +201,7 @@ const portfolioPage = () => (
                       href="https://resilientleadership.us/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Resilient Leadership website"
                     >
                       <FaLink />
                     </a>
@@ -232,6 +239,7 @@ const portfolioPage = () => (
                       href="https://intrst.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Intrst website"
                     >
                       <FaLink />
                     </a>
@@ -241,6 +249,7 @@ const portfolioPage = () => (
                       href="https://github.com/domobritton/Intrst/tree/master/pinterest"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Github"
                     >
                       <FaGithub />
                     </a>
@@ -264,6 +273,7 @@ const portfolioPage = () => (
                       href="http://crushd.io/#/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Crush'd website"
                     >
                       <FaLink />
                     </a>
@@ -273,6 +283,7 @@ const portfolioPage = () => (
                       href="https://github.com/JOlivier92/Crushd"
                       target="_blank"
                       rel="noopener noreferrer"
+                      title="Github"
                     >
                       <FaGithub />
                     </a>
@@ -284,7 +295,7 @@ const portfolioPage = () => (
           </Anime>
         </div>
         <div className="right-arrows-container">
-          <Link to="/contact">
+          <Link to="/contact" title="Contact Page">
             <div className="right-arrow right-arrow-one" />
             <div className="right-arrow right-arrow-two" />
           </Link>
