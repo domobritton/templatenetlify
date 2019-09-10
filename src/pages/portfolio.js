@@ -6,6 +6,7 @@ import Crushd from "../images/crushd.gif"
 import NeueWeather from "../images/neueweather.gif"
 import Resilient from "../images/resilient.gif"
 import Seismic from "../images/seismic.gif"
+import Auto from "../images/kg-auto.gif"
 import Silent from "../images/silentdisco.gif"
 import Layout from "../components/layout"
 import { FaGithub, FaLink, FaCode } from "react-icons/fa"
@@ -100,6 +101,41 @@ const portfolioPage = () => (
                       title="Silent Storm website"
                     >
                       <FaLink />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img src={Auto} alt="KG Auto Repair" />
+              <p>
+                <em>Technologies: Gatsby, Styled Components, Animate.css</em>
+              </p>
+              <ul>
+                <li>
+                  Built in Gatby.js as a static site; deployed to Netlify. Features
+                  progressive image loading and subtle animations to heighten UX, 
+                  + near instantaneous page loading speeds.
+                </li>
+              </ul>
+              <div className="portfolio-links">
+                <ul>
+                  <li>
+                    <a
+                      href="https://eager-mccarthy-a5538e.netlify.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="KG Auto Repair website"
+                    >
+                      <FaLink />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href = "https://github.com/domobritton/gatsby-kg-auto"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Github"
+                    >
+                      <FaGithub />
                     </a>
                   </li>
                 </ul>
