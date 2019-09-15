@@ -30,7 +30,7 @@ const aboutPage = () => (
           </p>
           <div className="download-btn">
             <a
-              href="https://drive.google.com/file/d/1WTr5HgrHPj__tNC9w0YP0Bn4YSWdLTsZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/11bh7FJVzuLwF5S4Gy8syqDA7uaOGk5gC/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
